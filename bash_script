@@ -1,0 +1,10 @@
+ #!/bin/bash
+ec2-user
+sudo -i
+yum install httpd -y
+cd /var/www/html
+echo "welcome devops class git and github" >index.html
+service httpd restart
+
+
+
